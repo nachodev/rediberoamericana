@@ -84,7 +84,7 @@
                         </ul>
                     </li>
                     <li> 
-                       <a href="contacto.html">Contacto</a> 
+                       <a href="contacto.php">Contacto</a> 
                     </li>
                 </ul>                           
             </div>
@@ -258,7 +258,7 @@
                     $("#gif-loading").css("display", "none");
                     $("#send-button").prop( "disabled", false );
                     $("#cancel-button").prop( "disabled", false );
-                    alert("Mensaje enviado :)");
+                    alert("Mensaje enviado correctamente.");
                     console.log( response );
                 })
                 .fail(function(response) {

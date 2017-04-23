@@ -41,7 +41,7 @@
 		//Set an alternative reply-to address
 		$mail->addReplyTo($_POST['email'], $_POST['name']);
 		//Set who the message is to be sent to
-		$mail->addAddress('neosorro@gmail.com', 'Nacho');
+		$mail->addAddress('rediberoamericanainvestigacion@gmail.com', $_POST['name']);
 		//Set the subject line
 		$mail->Subject = '[Contacto web]: '. $_POST['name'] ;
 		//Read an HTML message body from an external file, convert referenced images to embedded,
