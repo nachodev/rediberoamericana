@@ -35,7 +35,7 @@
 		//Username to use for SMTP authentication - use full email address for gmail
 		$mail->Username = "rediberoamericanainvestigacion@gmail.com";
 		//Password to use for SMTP authentication
-		$mail->Password = "redibero";
+		$mail->Password = "nop";
 		//Set who the message is to be sent from
 		$mail->setFrom('rediberoamericanainvestigacion@gmail.com', 'Red Iberoamericana');
 		//Set an alternative reply-to address
